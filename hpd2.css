@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    font-family: 'poppins';
+    justify-content: center;
+    
+}
+
+body{
+    background-color: rgba(149, 203, 134, 0.115);
+}
+
+header{
+    background-color: teal;
+    color: white;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: -7px;
+    margin-bottom: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(189, 186, 186);
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: -1%;
+    margin-bottom: 3%;
+}
+.formulario{
+    text-align: center;
+        color: black;
+        font-size: 20px;
+        margin-left: 4px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
+input{
+    width: 510px;
+    height: 40px;
+    padding: 0 16px;
+    background-color: rgba(180, 180, 180, 0.322);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: 2px rgba(180, 180, 180, 0.138);
+    border-radius: 10px;
+}
+
+#data-nascimento{
+    padding: 0 16px;
+    background-color: rgba(180, 180, 180, 0.322);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    border: 2px rgba(180, 180, 180, 0.138);
+    border-radius: 10px;
+}
+
+select{
+    background-color: rgba(180, 180, 180, 0.322);
+    border: 2px rgba(180, 180, 180, 0.138);
+    border-radius: 10px;
+    height: 30px;
+}
+
+#enviar{
+    width: 530px;
+    background-color: rgb(86, 179, 86);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}

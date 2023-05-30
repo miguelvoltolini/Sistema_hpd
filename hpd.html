@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hpd.css">
+
+    <title>Help Desc</title>
+</head>
+<header>
+    <h1>Central de Serviços</h1>
+    <nav>
+            <a href="hpd2.html">Login <span class="material-symbols-outlined">Person</span></a>
+    </nav>
+</header>
+<body>
+    
+    <div id="label1"><label for="label1">Chamado: 2719949</label></div>
+    <br>
+
+
+    <!---------------------------Prod Pross Mod---------------------------------- -->
+    
+    <div id="a"><span class="material-symbols-outlined">calendar_month</span> <label id="lb_prod" for="text1">* Produto/Processo/Módulo</label></div>
+    
+    <br>
+    <div class="prods1">
+    <label for="topico">Produto:</label>
+    <select id="sem_valor"><option value="Manutenção_de_Unidades">Manutenção de Unidades</option></select>
+
+    <label for="topico2">Processo:</label>
+    <select id="sem_valor"><option value="Atendimento">Atendimento</option></select>
+
+    <label for="topico3">Módulo:</label>
+    <select id="sem_valor"><option value="Servicos">Serviços</option></select>
+    </div>
+    <br>
+
+     <!-------------------------------Prod Pross Mod---------------------------------- -->
+
+    <div id="a"> <span class="material-symbols-outlined">calendar_month</span><label for="text">* Caminho/Natureza/Severidade/Vencimento/Versão</label></div>
+    <br>
+
+    <label  for="topico4">Caminho:</label>
+    <select id="cami"><option value="Manutenção_de_Equipamentos">Manutenção de Equipamentos</option></select>
+    <br>
+
+    <label  for="topico5">Natureza:</label>
+    <select id="natu"><option value="Incidente_Problema">Incidente/Problema</option></select>
+    <br>
+
+    <label for="topico6">Vencimento:</label><br>
+    <input id="venc" type="text" placeholder="O vencimento será calculado pelo sistema">
+    <br><br>
+
+    <div id="a"> <span class="material-symbols-outlined">calendar_month</span><label for="text">* Texto/Descrição</label></div>
+    <br>
+    <label for="topico7">Título:</label>
+    <input id="inpTit" type="text" placeholder="(Exemplo:)Erro tela de login">
+    <br><br>
+
+    
+    <label  for="topico8">Descrição:</label>
+    <br>
+    <input id="lb_final" type="text">
+    <br>
+
+    <div class="botao">
+    <button> Confirmar <span class="material-symbols-outlined" id="btnconf">check</span></button>
+    <button> Cancelar <span class="material-symbols-outlined" id="btncanc">close</span></button></div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    font-family: 'poppins';
+    justify-content: center;
+}
+
+body{
+    background-color: rgba(149, 203, 134, 0.115);
+    color: black;
+    }
+    
+
+#label1{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+
+.prods1{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+#lb_final{
+    height: 100px;
+    width: 93%;
+    margin-top: -16px;
+    margin-left: 95px;
+}
+
+#inpTit{
+    margin-left: 42px;
+    width: 20%;
+}
+header{
+    background-color: teal;
+    color: white;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -7px;
+    margin-bottom: 4px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+}
+#a{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    padding-left: 3px;
+    background-color: rgba(206, 206, 206, 0.623);
+    
+}
+#cami{
+    width: 99%;
+}
+#natu{
+    width: 99%;
+}
+#venc{
+    width: 300px;
+}
+
+    button{
+        display: flex;
+        border: 0px solid transparent;
+        align-items: center;
+    }
+    
+    #btnconf{
+        color: rgb(66, 188, 66);
+    }
+    
+    .botao{
+        display: flex;
+        flex-direction: row;
+        margin-left: 85%;
+    }
+
+    #btncanc{
+        color: red;
+    }
